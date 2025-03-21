@@ -1,7 +1,7 @@
 import bread1 from "./images/bread1.jpg"
 import bread2 from "./images/bread2.jpg"
 import bread3 from "./images/bread3.jpg"
-const cardData = [
+const BreadData = [
     {
       id: 1,
       image_url: bread1,
@@ -22,5 +22,5 @@ const cardData = [
     },
   ];
 
-  export default cardData;
+  export default BreadData;
   

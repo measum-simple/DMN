@@ -1,11 +1,12 @@
 import React from "react";
-import cardData from "./card_Data"; 
-const Card = () => {
+import BreadData from "./BreadData"; 
+
+const Bread = () => {
   return (
     <div className="container">
       <div className="row">
         <div className="row row-cols-1 row-cols-md-3 g-4">
-          {cardData.map((card) => (
+          {BreadData.map((card) => (
             <div className="col" key={card.id}>
               <div className="card">
                 <img src={card.image_url} className="card-img-top" alt={card.name} />
@@ -23,4 +24,4 @@ const Card = () => {
   );
 };
 
-export default Card;
+export default Bread;
